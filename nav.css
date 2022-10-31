@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Playfair+Display:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+.menubtn {
+
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    margin: -200% 0 3% 115%;
+    position: absolute;
+}
+
+    
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #000000;
+    min-width: 30%;
+    
+}
+.dropdown-child a {
+    color: #ffffff;
+    font-family: "Fuzzy Bubbles";
+    padding: 30px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-child a:first-child {
+    margin-top: 15%;
+}
+
+.dropdown-child a:hover{
+    background-color: #7D0800;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    margin: auto;
+    position: absolute;
+
+}
+
+#menubtn2 {
+    font-family: "Fuzzy Bubbles";
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0% 0% 0% 120%;
+    margin-top: -100%;
+    
+}
+
+
+
+.menubtn img {
+    width: 40px;
+}
+

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+
+body {
+    background-color: #BD0D00;
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+main h1 {
+    font-family: "Barlow Condensed";
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1% 0 2% 0;   
+    
+}
+
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 0 0 2% 0;
+}
+
+main h3 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5%;
+}
+
+main #shonen {
+    background-image: linear-gradient(to right, #BD0D00, #fc1100a8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5% -1% 0.5%;
+}
+
+main #shoujo {
+    background-image: linear-gradient(to right, #bd0075, #bd0075a8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5% -1% 0.5%;
+}
+
+main #seinen {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #000000, #000000a8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5% -1% 0.5%;
+}
+
+main #mecha {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #1916a5, #1916a5a8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5% -1% 0.5%;
+}
+
+main #isekai {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #cc5200, #cc5200a8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.3% 0 0.3% 0;
+    margin: 1% 0.5% -1% 0.5%;
+}
+
+
+
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    max-width: 100%;
+    text-align: justify;
+    padding: 0 3%;
+    }
+
+main #generos li {
+    background-image: linear-gradient(to right, #eeebeb, #d4d4d4a8);
+    width: 60%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 1.5% 0% 1.5% 0%;
+    margin: 0.5% 0%;
+    list-style: none;
+    width: 90%;
+}
+
+main #generos ul:last-child {
+    padding-bottom: 0.5%;
+    
+}
+
+main #historia p {
+    padding-bottom: 1%;
+}
+
+main img {
+    background-color: black;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+   
+}
+
+main #imgmanga img {
+    background-color: black;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    margin: 1% 3%;
+
+}
+
+main #listgen a {
+    display: block;
+    font-family: Barlow Condended;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+   
+
+}
+
+main #listgen a:hover {
+    color: #BD0D00;
+
+    
+}
+
+main #generos a {
+    color: #000000;
+}
+
+main #generos a:hover {
+    color: #BD0D00;
+}
+
+main #listgen a:visited {
+    text-decoration: none;
+}
+
+main #nomes1 li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5% 11% 0% 11%;   
+    
+       
+}
+
+main #nomes2 li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin: 40% 10% 0% 10%;   
+   
+  
+
+}
+
+
+main #assist1 {
+    padding: 0% 5% 0% 5%;
+    margin-top: -40%;
+}
+
+main #assist2 {
+    padding: 50px;
+    
+}
+
+
+
+
+
+
+
+
